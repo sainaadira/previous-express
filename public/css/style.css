@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-image: url(https://media.giphy.com/media/xUA7aW1ddSxtVT5zzi/giphy.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Amatic SC', cursive;
+}
+
+h1 {
+  text-align: center;
+  color: #7B241C;
+  font-size: 4.5em;
+  font-family: 'Lobster', cursive;
+  margin-top: 44px;
+}
+
+#userInput {
+  width: 35%;
+  height: 85px;
+  border: 3px solid #7B241C;
+  border-radius: 5% background-color:inherit;
+}
+
+#addButton {
+  width: 6%;
+  height: 50px;
+  border-radius: 10%;
+  background-color: #EBDEF0;
+}
+
+button {
+  width: 10%;
+  height: 50px;
+  border-radius: 10%;
+  background-color: #EBDEF0;
+  color: #AF7AC5;
+}
+
+li {
+  list-style: none;
+  color: #7B241C;
+  font-size: 3em;
+  font-weight: bold;
+  margin-right: 8%;
+}
+
+p {
+  color: #7B241C;
+  font-size: 2em;
+  font-family: 'Lobster', cursive;
+}
+
+#counterItems {
+  color: #EBDEF0;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #EBDEF0;
+}
